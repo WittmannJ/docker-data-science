@@ -4,7 +4,7 @@ Docker image for working with Anaconda.
 
 More details you can find in article: [Docker for Data Science](https://medium.com/@evheniybystrov/docker-for-data-science-9c0ce73e8263).
 
-# Instructions for using miniconda (smaller than the full-blown anaconde docker image)
+# Instructions for using miniconda
 
 1. ```git clone git@github.com:WittmannJ/docker-data-science.git```
 2. ```cd miniconda```
