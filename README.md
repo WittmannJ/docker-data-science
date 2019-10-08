@@ -14,3 +14,7 @@ More details you can find in article: [Docker for Data Science](https://medium.
 6. Navigate to ```localhost:8888```
 7. Passwort is ```root```
 8. All new files that you create in jupyter notebook get saved into ```<local path to git repo>/docker-data-science/miniconda/notebooks```
+
+# useful commandos
+
+* Delete the created docker container with: ```docker rm -f docker-data-science-lite```
