@@ -33,6 +33,11 @@ RUN mkdir /opt/notebooks
 RUN jupyter notebook --generate-config --allow-root
 RUN echo "c.NotebookApp.password = u'sha1:6a3f528eec40:6e896b6e4828f525a6e20e5411cd1c8075d68619'" >> /root/.jupyter/jupyter_notebook_config.py
 
+RUN echo "c.NotebookApp.contents_manager_class='jupytext.TextFileContentsManager'" >> /root/.jupyter/jupyter_notebook_config.py
+
+RUN echo "c.ContentsManager.default_jupytext_formats = 'ipynb,md'" >> /root/.jupyter/jupyter_notebook_config.py
+
+
 # Jupyter listens port: 8888
 EXPOSE 8888
 
