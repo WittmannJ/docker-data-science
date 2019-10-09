@@ -19,6 +19,8 @@ ENV PATH /root/miniconda3/bin:$PATH
 
 # Updating Anaconda packages
 RUN conda install pandas
+RUN conda install matplotlib
+RUN conda install plotly
 RUN conda install jupyter -y --quiet
 RUN conda install scikit-learn
 RUN conda install -c conda-forge jupytext
