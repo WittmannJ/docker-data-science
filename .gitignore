@@ -1,3 +1,3 @@
 notebooks/.ipynb_checkpoints
 notebooks/*
-#miniconda/notebooks/**/*
+miniconda/notebooks/**/*
