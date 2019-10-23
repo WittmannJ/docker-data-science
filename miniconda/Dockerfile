@@ -24,6 +24,8 @@ RUN conda install plotly
 RUN conda install jupyter -y --quiet
 RUN conda install scikit-learn
 RUN conda install -c conda-forge jupytext
+RUN conda install seaborn
+RUN conda install -c conda-forge missingno
 RUN conda update conda
 #RUN conda update miniconda
 RUN conda update --all
